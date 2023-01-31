@@ -2,30 +2,32 @@
 	"spot_id": {
 		"label":"string",
 		"group":"string",
+		"comment":"string",
 		"timestamp":{
 			"creation":"timestamp",
 			"closing":"timestamp"
 		},
 		"location":{
-
+			"description": "string",	
 			"longitude": 0.1,
 			"latitude":-0.1
 		},
-		"comment":"string",
+		
 		"tide_gauchge_id":"string"
 	},
 	"lacaneau_1": {
-		"label":"lacaneau reverbert",
+		"label":"lacaneau belvédère",
 		"group":"lacaneau",
+		"comment":"Un des premiers créé. Initialement un site custom sur l'app, mais converti en officiel",
 		"timestamp":{
 			"creation":"2022-12-07 15:15:00 +00:00",
 			"closing":null
 		},
 		"location":{
+			"description": "Vers le milieu de la promenade (rue tartanpion), sur un belvédère (côté Nord, cad à droite en regardant la mer)",
 			"longitude": 44.9778558,
 			"latitude":-1.0754637
 		},
-		"comment":"Initalement un site custom sur l'app, mais converti en officiel",
 		"tide_gauge_id":"string"
 	}
 }
